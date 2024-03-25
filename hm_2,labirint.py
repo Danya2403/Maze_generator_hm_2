@@ -1,7 +1,9 @@
 !pip install matplotlib
 import matplotlib.pyplot as plt
-import random as rd
+from itertools import groupby
+import random
 from dataclasses import dataclass, field
+
 
 @dataclass
 class MazeCell:
